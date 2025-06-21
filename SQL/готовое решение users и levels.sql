@@ -57,7 +57,7 @@ insert into users (user_name, level_id, skill)
 
 
 5. Обновить данные в таблице user -  для пользователей с level_id меньше 2 проставить skill 2000000
-UPDATE users set skill='2000000' WHERE level_id<2;
+UPDATE users set skill=2000000 WHERE level_id<2;
 
 6. Выбрать user_name всех пользователей уровня admin используя подзапрос
 
