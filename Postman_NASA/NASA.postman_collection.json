@@ -1,0 +1,218 @@
+{
+	"info": {
+		"_postman_id": "f636965b-dcca-4158-aadc-36ffb87522b5",
+		"name": "NASA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30671030"
+	},
+	"item": [
+		{
+			"name": "Eath_date",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();\r",
+							"console.log(jsonData)\r",
+							"var photos2 = jsonData.photos[1].id\r",
+							"pm.environment.set(\"photo_2_id\", photos2);\r",
+							"console.log(photos2)\r",
+							"var photo_camera_name_12 = jsonData.photos[11].camera.name \r",
+							"console.log(photo_camera_name_12)"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2022-1-21",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"curiosity",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "earth_date",
+							"value": "2022-1-21"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Curiosity sol 0",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=0&page=2&api_key=DEMO_KEY",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"curiosity",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "sol",
+							"value": "0"
+						},
+						{
+							"key": "page",
+							"value": "2"
+						},
+						{
+							"key": "api_key",
+							"value": "DEMO_KEY"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Curiosity sol 1000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=2&api_key=DEMO_KEY",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"curiosity",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "sol",
+							"value": "1000"
+						},
+						{
+							"key": "page",
+							"value": "2"
+						},
+						{
+							"key": "api_key",
+							"value": "DEMO_KEY"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Curiosity sol 1000 camera fhaz",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&camera=fhaz&api_key=DEMO_KEY",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"curiosity",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "sol",
+							"value": "1000"
+						},
+						{
+							"key": "camera",
+							"value": "fhaz"
+						},
+						{
+							"key": "api_key",
+							"value": "DEMO_KEY"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "api_key",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "query",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "6LNaws6pcmiAMKxdy8Zy09NqX8jn4LVYezaMJyME",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
