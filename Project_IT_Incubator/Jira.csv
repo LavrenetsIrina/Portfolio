@@ -1,4 +1,170 @@
-Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers Id,Watchers Id,Log Work,Log Work,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Relates),Outward issue link (Relates),Attachment,Attachment,Attachment,Attachment,Custom field (Development),Custom field (Issue color),Custom field (Rank),Sprint,Sprint,Custom field (Start date),Custom field (Story point estimate),Team Id,Team Name,Custom field (Vulnerability),Comment,Comment,Comment,Parent,Parent key,Parent summary,Status Category,Status Category Changed
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Relates),Outward issue link (Relates),Attachment,Attachment,Attachment,Attachment,Custom field (Development),Custom field (Issue color),Custom field (Rank),Sprint,Sprint,Custom field (Start date),Custom field (Story point estimate),Team Id,Team Name,Custom field (Vulnerability),Comment,Comment,Comment,Status Category,Status Category Changed
+В профиле пользователя не возможно редактировать данные по причине их первоначального несохранения,NEXT-96,10687,Bug,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Feb/26 4:48 PM,13/Feb/26 4:48 PM,,,,0,"# Открыто приложение Inctagram
+# Пользователь зарегистрирован в система
+# Открыт аккаунт пользователя
+
+Шаги:
+
+# Нажать на кнопку Profile Setting
+# Заполнить поле First Name другими валидными тестовыми данными
+# Заполнить поле Last Name другими  валидными тестовыми данными
+# Нажать на кнопку Save changes
+
+Ожидаемый результат:
+
+Система сохранила внесенные данные. 
+
+Фактический результат:
+
+Система не сохранила внесенные данные. Поля First Name и Last Name не заполнены.
+
+Серьезность дефекта: средний
+
+Приоритет дефекта: высокий
+
+Окружение: Goggle. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,13/Feb/26 4:48 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;заполнение профиля_нет сохран данных_1.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10318,,,,,,0|i000hh:,Спринт 6,,,,,,,,,,To Do,13/Feb/26 4:48 PM
+При заполнении профиля пользователя поля Last Name не выполнено требование по максимальному количеству символов,NEXT-95,10686,Bug,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Feb/26 3:56 PM,13/Feb/26 3:56 PM,,,,0,"# Открыто приложение Inctagram
+# Пользователь зарегистрирован в система
+# Открыт аккаунт пользователя
+
+Шаги:
+
+# Нажать на кнопку Profile Setting
+# Заполнить поле Last Name данными в количестве 51 символов
+# Перейти на следующее поле
+
+Ожидаемый результат:
+
+Система отображает сообщение об ошибке превышения максимального количества символов.
+
+Фактический результат:
+
+Система не отображает сообщение об ошибке.
+
+Серьезность дефекта: средний
+
+Приоритет дефекта: высокий
+
+Окружение: Goggle. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,13/Feb/26 3:56 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;last name на макс символов.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10316,,,,,,0|i000h9:,Спринт 6,,,,,,,,,,To Do,13/Feb/26 3:56 PM
+При заполнении профиля пользователя поля Last Name не выполнено требование по минимальному количеству символов,NEXT-94,10685,Bug,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Feb/26 3:54 PM,13/Feb/26 3:54 PM,,,,0,"# Открыто приложение Inctagram
+# Пользователь зарегистрирован в система
+# Открыт аккаунт пользователя
+
+Шаги:
+
+# Нажать на кнопку Profile Setting
+# Заполнить поле Last Name данными в количестве 3 символов
+# Перейти на следующее поле
+
+Ожидаемый результат:
+
+Валидация поля Last Name на минимальное количество символов пройдена успешна. Система не отображает сообщение об ошибке.
+
+Фактический результат:
+
+Система отображает сообщение об ошибке “Last name must be at least 4 characters”.
+
+Серьезность дефекта: средний
+
+Приоритет дефекта: высокий
+
+Окружение: Goggle. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,13/Feb/26 3:54 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;last name на мин символов.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10314,,,,,,0|i000h1:,Спринт 6,,,,,,,,,,To Do,13/Feb/26 3:54 PM
+При заполнении профиля пользователя поля First Name не выполнено требование по максимальному количеству символов,NEXT-93,10684,Bug,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Feb/26 3:52 PM,13/Feb/26 3:52 PM,13/Feb/26 3:55 PM,,,0,"# Открыто приложение Inctagram
+# Пользователь зарегистрирован в система
+# Открыт аккаунт пользователя
+
+Шаги:
+
+# Нажать на кнопку Profile Setting
+# Заполнить поле First Name данными в количестве 51 символов
+# Перейти на следующее поле
+
+Ожидаемый результат:
+
+Система отображает сообщение об ошибке превышения максимального количества символов.
+
+Фактический результат:
+
+Система не отображает сообщение об ошибке.
+
+Серьезность дефекта: средний
+
+Приоритет дефекта: высокий
+
+Окружение: Goggle. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,13/Feb/26 3:52 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;firstname на макс симв.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10312,,,,,,0|i000gt:,Спринт 6,,,,,,,,,,To Do,13/Feb/26 3:52 PM
+При заполнении профиля пользователя поля First Name не выполнено требование по минимальному количеству символов,NEXT-92,10683,Bug,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Feb/26 3:49 PM,13/Feb/26 3:49 PM,13/Feb/26 3:50 PM,,,0,"# Открыто приложение Inctagram
+# Пользователь зарегистрирован в система
+# Открыт аккаунт пользователя
+
+Шаги:
+
+# Нажать на кнопку Profile Setting
+# Заполнить поле First Name данными в количестве 3 символов
+# Перейти на следующее поле
+
+Ожидаемый результат:
+
+Валидация поля First Name на минимальное количество символов пройдена успешна. Система не отображает сообщение об ошибке.
+
+Фактический результат:
+
+Система отображает сообщение об ошибке “First name must be at least 4 characters”.
+
+Серьезность дефекта: средний
+
+Приоритет дефекта: высокий
+
+Окружение: Goggle. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,13/Feb/26 3:49 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;firstname на миним симв.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10310,,,,,,0|i000gl:,Спринт 6,,,,,,,,,,To Do,13/Feb/26 3:49 PM
+При заполнении профиля пользователя нет уведомления системы о сохранении/несохранении данных,NEXT-91,10682,Bug,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Feb/26 3:43 PM,13/Feb/26 3:43 PM,,,,0,"# Открыто приложение Inctagram
+# Пользователь зарегистрирован в система
+# Открыт аккаунт пользователя
+
+Шаги:
+
+# Нажать на кнопку Profile Setting
+# Заполнить поле First Name валидными тестовыми данными
+# Заполнить поле Last Name валидными тестовыми данными
+# Нажать на кнопку Save changes
+
+Ожидаемый результат:
+
+Система отображает сообщение: “{{Your settings are saved!"" либо ""Error! Server is not available!""}}.
+
+Фактический результат:
+
+Система не отображает сообщения. 
+
+Серьезность дефекта: средний
+
+Приоритет дефекта: высокий
+
+Окружение: Goggle. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,13/Feb/26 3:43 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;заполнение профиля_нет сообщ системы о сохран.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10308,,,,,,0|i000gd:,Спринт 6,,,,,,,,,,To Do,13/Feb/26 3:43 PM
+В профиле пользователя при заполнении нет сохранения данных,NEXT-90,10681,Bug,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Feb/26 3:39 PM,13/Feb/26 3:39 PM,13/Feb/26 4:44 PM,,,0,"# Открыто приложение Inctagram
+# Пользователь зарегистрирован в система
+# Открыт аккаунт пользователя
+
+Шаги: 
+
+# Нажать на кнопку Profile Setting
+# Заполнить поле First Name валидными тестовыми данными
+# Заполнить поле Last Name валидными тестовыми данными
+# Нажать на кнопку Save changes
+# Перейти на вкладку Devices
+# Перейти на вкладку General Information
+
+Ожидаемый результат:
+
+Система сохранила внесенные данные. 
+
+Фактический результат:
+
+Система не сохранила внесенные данные. Поля First Name и Last Name не заполнены. 
+
+Серьезность дефекта: средний
+
+Приоритет дефекта: высокий
+
+Окружение: Goggle. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,13/Feb/26 3:39 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;заполнение профиля_нет сохран данных_1.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10305,13/Feb/26 3:39 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;заполнение профиля_нет сохран данных_2.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10306,,,,,0|i000g5:,Спринт 6,,,,,,,,,,To Do,13/Feb/26 3:39 PM
 В разделе Уведомления текст сообщения не отображает корректную информацию о сроках истечения подписки,NEXT-89,10648,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Александр,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,06/Feb/26 3:34 PM,10/Feb/26 9:17 AM,10/Feb/26 9:04 AM,10/Feb/26 9:17 AM,,0,"# Открыто приложение Inctagram
 # Пользователь зарегистрирован в система
 # Открыт аккаунт пользователя
@@ -15,8 +181,8 @@ Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project ty
 
 Фактический результат: 
 
-Система направляет направило сообщение об истечении подписки через 1 день, хотя в списке подписок нет данного срока окончания. ",,Александр,Ирина,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,06/Feb/26 8:14 PM;ug:44b46f7c-de06-4002-88c0-1635564380bc;2026-02-06 21-10-31.mp4;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10270,06/Feb/26 3:34 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;уведомление_текст сообщений 2.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10237,06/Feb/26 3:33 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;уведомление_текст сообщений.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10236,,,,0|i000ei:,Спринт 6,,,,,,,"06/Feb/26 8:14 PM;712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1;!2026-02-06 21-10-31.mp4|width=635,alt=""2026-02-06 21-10-31.mp4""!",06/Feb/26 8:14 PM;712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1;ответ в видео! ,06/Feb/26 8:15 PM;712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1;эта ошибка уйдет сама если на учесном бэкенде исправят это ! но не факт что это сделают!,,,,Done,10/Feb/26 9:17 AM
-"В публикации при удалении поста некорректный текст сообщения, не предполагает ответы Yes/NO",NEXT-88,10615,Bug,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,03/Feb/26 11:42 AM,03/Feb/26 11:42 AM,12/Feb/26 10:26 AM,,,0,"# Открыто приложение Inctagram
+Система направляет направило сообщение об истечении подписки через 1 день, хотя в списке подписок нет данного срока окончания. ",,Александр,Ирина,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,06/Feb/26 8:14 PM;ug:44b46f7c-de06-4002-88c0-1635564380bc;2026-02-06 21-10-31.mp4;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10270,06/Feb/26 3:34 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;уведомление_текст сообщений 2.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10237,06/Feb/26 3:33 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;уведомление_текст сообщений.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10236,,,,0|i000ei:,Спринт 6,,,,,,,"06/Feb/26 8:14 PM;712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1;!2026-02-06 21-10-31.mp4|width=635,alt=""2026-02-06 21-10-31.mp4""!",06/Feb/26 8:14 PM;712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1;ответ в видео! ,06/Feb/26 8:15 PM;712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1;эта ошибка уйдет сама если на учесном бэкенде исправят это ! но не факт что это сделают!,Done,10/Feb/26 9:17 AM
+"В публикации при удалении поста некорректный текст сообщения, не предполагает ответы Yes/NO",NEXT-88,10615,Bug,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,03/Feb/26 11:42 AM,03/Feb/26 11:42 AM,19/Feb/26 10:33 AM,,,0,"# Открыто приложение Inctagram
 # Пользователь зарегистрирован в система
 # Открыт аккаунт пользователя
 # Открыта вкладка My Profile
@@ -39,8 +205,7 @@ Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project ty
 
 Приоритет: средний
 
-Окружение: Google. Winwows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,,03/Feb/26 11:41 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;удаление поста_текст сообщ.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10167,,,,,,0|i000fx:,Спринт 6,,,,,,,,,,,,,To Do,03/Feb/26 11:42 AM
-Создание и настройка второго проекта,NEXT-87,10582,Task,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,27/Jan/26 7:19 PM,27/Jan/26 7:28 PM,,,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000f3:,Спринт 6,,,15.0,,,,,,,,,,To Do,27/Jan/26 7:19 PM
+Окружение: Google. Winwows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,03/Feb/26 11:41 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;удаление поста_текст сообщ.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10167,,,,,,0|i000fx:,Спринт 6,,,,,,,,,,To Do,03/Feb/26 11:42 AM
 В публикации при закрытии формы редактирования поста нет сообщения согласно требованию. ,NEXT-86,10549,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,27/Jan/26 9:32 AM,27/Jan/26 9:32 AM,27/Jan/26 9:32 AM,27/Jan/26 9:32 AM,,0,"# Открыто приложение Inctagram
 # Пользователь зарегистрирован в система
 # Открыт аккаунт пользователя
@@ -65,7 +230,7 @@ Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project ty
 
 Приоритет: средний
 
-Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,,27/Jan/26 9:32 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;20260127_133040.mp4;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10133,,,,,,0|i000fp:,Спринт 6,,,,,,,,,,,,,Done,27/Jan/26 9:32 AM
+Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,27/Jan/26 9:32 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;20260127_133040.mp4;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10133,,,,,,0|i000fp:,Спринт 6,,,,,,,,,,Done,27/Jan/26 9:32 AM
 При просмотре поста не отображается его описание,NEXT-85,10548,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Александр,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,27/Jan/26 9:03 AM,06/Feb/26 3:35 PM,06/Feb/26 3:35 PM,06/Feb/26 3:35 PM,,0,"# Открыто приложение Inctagram
 # Пользователь зарегистрирован в система
 # Открыт аккаунт пользователя
@@ -87,9 +252,9 @@ Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project ty
 
 Приоритет: высокий
 
-Окружение: Google. Windows 10",,Александр,Ирина,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,03/Feb/26 1:36 PM;ug:44b46f7c-de06-4002-88c0-1635564380bc;Снимок экрана 2026-02-03 в 14.13.05.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10201,03/Feb/26 1:36 PM;ug:44b46f7c-de06-4002-88c0-1635564380bc;Снимок экрана 2026-02-03 в 14.16.36.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10200,27/Jan/26 9:02 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;нет описания к посту.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10130,27/Jan/26 9:02 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;редактирование опис поста_не видно опис.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10131,,,0|i000dr:,Спринт 6,,,,,,,"03/Feb/26 1:36 PM;712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1;!Снимок экрана 2026-02-03 в 14.13.05.png|width=635,alt=""Снимок экрана 2026-02-03 в 14.13.05.png""!
+Окружение: Google. Windows 10",,Александр,Ирина,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,03/Feb/26 1:36 PM;ug:44b46f7c-de06-4002-88c0-1635564380bc;Снимок экрана 2026-02-03 в 14.13.05.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10201,03/Feb/26 1:36 PM;ug:44b46f7c-de06-4002-88c0-1635564380bc;Снимок экрана 2026-02-03 в 14.16.36.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10200,27/Jan/26 9:02 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;нет описания к посту.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10130,27/Jan/26 9:02 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;редактирование опис поста_не видно опис.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10131,,,0|i000dr:,Спринт 6,,,,,,,"03/Feb/26 1:36 PM;712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1;!Снимок экрана 2026-02-03 в 14.13.05.png|width=635,alt=""Снимок экрана 2026-02-03 в 14.13.05.png""!
 
-!Снимок экрана 2026-02-03 в 14.16.36.png|width=620,alt=""Снимок экрана 2026-02-03 в 14.16.36.png""!","03/Feb/26 1:37 PM;712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1;Работает, описание поста сверху над комментариями.",,,,,Done,06/Feb/26 3:35 PM
+!Снимок экрана 2026-02-03 в 14.16.36.png|width=620,alt=""Снимок экрана 2026-02-03 в 14.16.36.png""!","03/Feb/26 1:37 PM;712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1;Работает, описание поста сверху над комментариями.",,Done,06/Feb/26 3:35 PM
 В Current Subscription при покупке доп подписки система не отображает новую подписку вслед за текущей ,NEXT-84,10547,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,27/Jan/26 8:37 AM,06/Feb/26 2:48 PM,06/Feb/26 2:48 PM,06/Feb/26 2:48 PM,,0,"# Открыто приложение Inctagram
 # Пользователь зарегистрирован в система
 # Открыт аккаунт пользователя
@@ -118,7 +283,7 @@ Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project ty
 
 Приоритет: высокий
 
-Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,,27/Jan/26 8:37 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;покупка доп подписки есть в платежах.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10127,27/Jan/26 8:37 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;покупка доп подписки_нет записи в строке подписок.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10126,,,,,0|i000ej:,Спринт 6,,,,,,,,,,,,,Done,06/Feb/26 2:48 PM
+Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,27/Jan/26 8:37 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;покупка доп подписки есть в платежах.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10127,27/Jan/26 8:37 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;покупка доп подписки_нет записи в строке подписок.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10126,,,,,0|i000ej:,Спринт 6,,,,,,,,,,Done,06/Feb/26 2:48 PM
 На электронную почту не приходит ссылка для подтверждения регистрации аккаунта. ,NEXT-83,10514,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,22/Jan/26 8:26 AM,27/Jan/26 7:52 AM,27/Jan/26 7:52 AM,27/Jan/26 7:52 AM,,0,"# Открыто приложение Inctagram
 # Пользователь не зарегистрирован в системе
 # Открыта форма авторизации пользователя
@@ -143,7 +308,7 @@ Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project ty
 
 Приоритет: высокий
 
-Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,,22/Jan/26 8:22 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;подтверждение email отправка ссылки 2.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10090,22/Jan/26 8:22 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;подтверждение email отправка ссылки.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10091,,,,,0|i000f1:,Спринт 6,,,,,,,,,,,,,Done,27/Jan/26 7:52 AM
+Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,22/Jan/26 8:22 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;подтверждение email отправка ссылки 2.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10090,22/Jan/26 8:22 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;подтверждение email отправка ссылки.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10091,,,,,0|i000f1:,Спринт 6,,,,,,,,,,Done,27/Jan/26 7:52 AM
 "В поле Username в форме регистрации при вводе дефиса выходит ошибка ""Username can contain only Latin letters, numbers and underscore""",NEXT-82,10481,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Владимир,712020:6ea5ace2-47a1-4040-b350-277a983ea3a2,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,22/Jan/26 6:35 AM,27/Jan/26 7:52 AM,27/Jan/26 7:52 AM,27/Jan/26 7:52 AM,,0,"# Открыто приложение Inctagramm
 # Открыта форма авторизации пользователя
 # Пользователь не зарегистрирован в системе
@@ -165,19 +330,7 @@ Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project ty
 
 Приоритет: высокий
 
-Окружение: Google. Yandex. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,,22/Jan/26 6:35 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;username не допускает ввод дефиса.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10087,,,,,,0|i000cp:,Спринт 6,,,,,,,,,,,,,Done,27/Jan/26 7:52 AM
-Superadmin (GraphQL),NEXT-81,10448,Эпик,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:36 PM,20/Jan/26 7:36 PM,,,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,dark_orange,0|i000el:,,,,,,,,,,,,,,To Do,20/Jan/26 7:36 PM
-Просмотр всех постов в суперадминке (использование Apollo GraphQL Subscription),NEXT-80,10447,Story,тестирование,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,Victoria,712020:e3d8ecad-80d0-4511-9c7e-fd88aa049749,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:35 PM,07/Feb/26 12:58 PM,26/Jan/26 9:07 AM,,,0,"Как *суперадмин*, я хочу просмотреть все посты в системе (в том числе только что добавленные), чтобы отслеживать запрещенный контент и в случае чего заблокировать пользователя в системе.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000ei:x,Спринт 6,,,10.0,,,,,,,10448,NEXT-81,Superadmin (GraphQL),In Progress,01/Feb/26 8:47 AM
-Просмотр списка платежей,NEXT-79,10446,Story,тестирование,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,Victoria,712020:e3d8ecad-80d0-4511-9c7e-fd88aa049749,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:34 PM,07/Feb/26 12:58 PM,,,,0,Как *суперадмин* я хочу просмотреть все платежи пользователей платформы.,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000ei:i,Спринт 6,,,10.0,,,,,,,10448,NEXT-81,Superadmin (GraphQL),In Progress,22/Jan/26 8:43 AM
-Разблокировка пользователей,NEXT-78,10445,Story,тестирование,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,Victoria,712020:e3d8ecad-80d0-4511-9c7e-fd88aa049749,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:34 PM,07/Feb/26 12:58 PM,,,,0,"Как *суперадмин* я хочу разблокировать пользователя, который ранее был заблокирован, чтобы восстановить его доступ к системе.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000ei:v,Спринт 6,,,10.0,,,,,,,10448,NEXT-81,Superadmin (GraphQL),In Progress,31/Jan/26 9:25 AM
-Блокировка пользователя,NEXT-77,10444,Story,тестирование,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,Victoria,712020:e3d8ecad-80d0-4511-9c7e-fd88aa049749,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:33 PM,07/Feb/26 12:58 PM,,,,0,"Как *суперадмин* я хочу заблокировать пользователя в системе, чтобы он не имел доступа к ней (не мог оставлять комментарии, читать посты и т.д.)",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000ei:r,Спринт 6,,,10.0,,,,,,,10448,NEXT-81,Superadmin (GraphQL),In Progress,27/Jan/26 7:33 AM
-Просмотр детальной информации,NEXT-76,10443,Story,тестирование,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,Владимир,712020:6ea5ace2-47a1-4040-b350-277a983ea3a2,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:33 PM,31/Jan/26 3:13 PM,,,,0,Как суперадмин я хочу просматривать детальную информацию о пользователе.,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000e7:,Спринт 6,,,4.0,,,,,,,10448,NEXT-81,Superadmin (GraphQL),In Progress,24/Jan/26 3:39 PM
-Сортировка пользователей,NEXT-75,10442,Story,тестирование,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,Никита,712020:f35bb203-eccb-46e1-a58c-8215cf04c01e,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:33 PM,27/Jan/26 7:10 PM,,,,0,"Как *суперадмин* я хочу использовать сортировку в списке со всеми пользователями, чтобы облегчить поиск нужного пользователя.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000eg:i,Спринт 6,,,6.0,,,,,,,10448,NEXT-81,Superadmin (GraphQL),In Progress,22/Jan/26 1:45 AM
-Поиск пользователей,NEXT-74,10441,Story,тестирование,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,Владимир,712020:6ea5ace2-47a1-4040-b350-277a983ea3a2,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:32 PM,27/Jan/26 7:10 PM,,,,0,"Как *суперадмин* я хочу использовать поиск в списке со всеми пользователями, чтобы быстрее найти нужного пользователя",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000eg:r,Спринт 6,,,8.0,,,,,,,10448,NEXT-81,Superadmin (GraphQL),In Progress,22/Jan/26 1:45 AM
-Удаление пользователя,NEXT-73,10440,Story,тестирование,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,Владимир,712020:6ea5ace2-47a1-4040-b350-277a983ea3a2,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:32 PM,28/Jan/26 7:50 AM,,,,0,"Как *суперадмин* я хочу удалять пользователей из системы, чтобы они не имели возможность пользоваться платформой в полном объеме (оставлять комментарии под постами, ставить лайки/дизлайки)",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000dz:,Спринт 6,,,8.0,,,,,,,10448,NEXT-81,Superadmin (GraphQL),In Progress,22/Jan/26 1:44 AM
-Просмотр списка пользователей,NEXT-72,10439,Story,тестирование,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,Никита,712020:f35bb203-eccb-46e1-a58c-8215cf04c01e,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:31 PM,27/Jan/26 7:10 PM,,,,0,Как *суперадмин* я хочу просматривать список всех пользователей системы.,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000eg:,Спринт 6,,,6.0,,,,,,,10448,NEXT-81,Superadmin (GraphQL),In Progress,22/Jan/26 1:44 AM
-Авторизация в системе админа,NEXT-71,10438,Story,тестирование,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,Никита,712020:f35bb203-eccb-46e1-a58c-8215cf04c01e,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:31 PM,27/Jan/26 7:10 PM,,,,0,"Как *суперадмин* я хочу войти в систему, чтобы управлять пользователями и просматривать статистику.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000ef:,Спринт 6,,,4.0,,,,,,,10448,NEXT-81,Superadmin (GraphQL),In Progress,21/Jan/26 7:07 PM
-Получение и просмотр уведомлений (WebSocket),NEXT-70,10437,Story,тестирование,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,Александр,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,20/Jan/26 7:30 PM,06/Feb/26 3:25 PM,10/Feb/26 9:18 AM,,,0,"Как *авторизированный пользователь* я хочу получать и просматривать уведомления по предстоящим платежам, а также по истекающей подписке, для того чтобы быть вкурсе, когда будут списаны денежные средства с карты, либо для того, чтобы продлить подписки.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000dk:,Спринт 6,,,16.0,,,,,,,,,,In Progress,06/Feb/26 3:25 PM
+Окружение: Google. Yandex. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,22/Jan/26 6:35 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;username не допускает ввод дефиса.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10087,,,,,,0|i000cp:,Спринт 6,,,,,,,,,,Done,27/Jan/26 7:52 AM
 Нет затирания чек-бокса I agree и дезактивации кнопки ОК при повторном нажатии на Stripe после выхода из Create payment,NEXT-69,10436,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Владимир,712020:6ea5ace2-47a1-4040-b350-277a983ea3a2,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,19/Jan/26 3:17 PM,27/Jan/26 7:52 AM,27/Jan/26 7:52 AM,27/Jan/26 7:52 AM,,0,"# Открыто приложение Inctagram
 # Пользователь зарегистрирован в система
 # Открыт аккаунт пользователя
@@ -207,7 +360,7 @@ Superadmin (GraphQL),NEXT-81,10448,Эпик,To Do,NEXT,Поколение Next,s
 
 Приоритет: высокий
 
-Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,,19/Jan/26 3:17 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;чек-бокс I agree не обнуляется.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10085,,,,,,0|i000bx:,Спринт 5,Спринт 6,,,,,,,,,,,,Done,27/Jan/26 7:52 AM
+Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,19/Jan/26 3:17 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;чек-бокс I agree не обнуляется.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10085,,,,,,0|i000bx:,Спринт 5,Спринт 6,,,,,,,,,Done,27/Jan/26 7:52 AM
 "В поле Password Сonfirmation формы восстановления пароля при вводе несовпадающего пароля отображается текст ошибки, отличный от требований.",NEXT-68,10403,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Jan/26 11:36 AM,15/Jan/26 10:50 AM,15/Jan/26 10:43 AM,15/Jan/26 10:50 AM,,0,"# Открыто приложение Inctagram
 # Пользователь зарегистрирован в системе
 # Открыта страница Входа в систему
@@ -236,7 +389,7 @@ Superadmin (GraphQL),NEXT-81,10448,Эпик,To Do,NEXT,Поколение Next,s
 
 Приоритет: средний
 
-Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,,13/Jan/26 11:36 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле password conf текст ошиьки отлич от треб.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10051,,,,,,0|i000bn:,Спринт 5,,,,,,,,,,,,,Done,15/Jan/26 10:50 AM
+Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,13/Jan/26 11:36 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле password conf текст ошиьки отлич от треб.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10051,,,,,,0|i000bn:,Спринт 5,,,,,,,,,,Done,15/Jan/26 10:50 AM
 В поле Password в форме регистрации при вводе пробела не выходит ошибка о некорректности данных.,NEXT-67,10402,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Jan/26 10:24 AM,15/Jan/26 10:42 AM,15/Jan/26 10:42 AM,15/Jan/26 10:42 AM,,0,"Открыто приложение Inctagram. Открыта форма авторизации пользователя. Пользователь не зарегистрирован в системе.
 
 Шаги воспроизведения: 
@@ -258,7 +411,7 @@ Superadmin (GraphQL),NEXT-81,10448,Эпик,To Do,NEXT,Поколение Next,s
 
 Приоритет: высокий
 
-Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,NEXT-65,,13/Jan/26 10:24 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле password допуск пробела.jpg.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10049,,,,,,0|i000bn:1,Спринт 5,,,,,,,,,,,,,Done,15/Jan/26 10:42 AM
+Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,NEXT-65,,13/Jan/26 10:24 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле password допуск пробела.jpg.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10049,,,,,,0|i000bn:1,Спринт 5,,,,,,,,,,Done,15/Jan/26 10:42 AM
 В поле Password в форме регистрации при вводе одной буквы на латинице выходит ошибка о некорректности данных.,NEXT-66,10401,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Jan/26 10:14 AM,15/Jan/26 10:41 AM,15/Jan/26 10:40 AM,15/Jan/26 10:41 AM,,0,"Открыто приложение Inctagramm. Открыта форма авторизации пользователя. Пользователь не зарегистрирован в системе.
 
 Шаги воспроизведения: 
@@ -280,7 +433,7 @@ Superadmin (GraphQL),NEXT-81,10448,Эпик,To Do,NEXT,Поколение Next,s
 
 Приоритет: высокий
 
-Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,,13/Jan/26 10:14 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле password более 1 латин буквы.jpg.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10047,,,,,,0|i000bn:2,Спринт 5,,,,,,,,,,,,,Done,15/Jan/26 10:41 AM
+Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,13/Jan/26 10:14 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле password более 1 латин буквы.jpg.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10047,,,,,,0|i000bn:2,Спринт 5,,,,,,,,,,Done,15/Jan/26 10:41 AM
 В поле Password в форме регистрации при вводе кириллицы не выходит ошибка о некорректности данных.,NEXT-65,10400,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Jan/26 10:00 AM,15/Jan/26 10:40 AM,15/Jan/26 10:39 AM,15/Jan/26 10:40 AM,,0,"Открыто приложение Inctagramm. Открыта форма авторизации пользователя. Пользователь не зарегистрирован в системе.
 
 Шаги воспроизведения:
@@ -302,7 +455,7 @@ Superadmin (GraphQL),NEXT-81,10448,Эпик,To Do,NEXT,Поколение Next,s
 
 Приоритет: высокий
 
-Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,NEXT-67,13/Jan/26 9:59 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле password допуск кирил.jpg.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10045,,,,,,0|i000bn:4,Спринт 5,,,,,,,,,,,,,Done,15/Jan/26 10:40 AM
+Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,NEXT-67,13/Jan/26 9:59 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле password допуск кирил.jpg.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10045,,,,,,0|i000bn:4,Спринт 5,,,,,,,,,,Done,15/Jan/26 10:40 AM
 В поле Username в форме регистрации при вводе существующего в системе Username выходит некорректная ошибка.,NEXT-64,10399,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Jan/26 9:30 AM,15/Jan/26 10:39 AM,15/Jan/26 10:28 AM,15/Jan/26 10:39 AM,,0,"Открыто приложение Inctagramm. Открыта форма авторизации пользователя. Пользователь зарегистрирован в системе. 
 
 Шаги:
@@ -325,7 +478,7 @@ Superadmin (GraphQL),NEXT-81,10448,Эпик,To Do,NEXT,Поколение Next,s
 
 Приоритет: низкий
 
-Окружение: Google. Winwows 10.",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,,,13/Jan/26 9:30 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле username текст ошибки не по треб.jpg.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10043,,,,,,0|i000bn:9,Спринт 5,,,,,,,,,,,,,Done,15/Jan/26 10:39 AM
+Окружение: Google. Winwows 10.",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,13/Jan/26 9:30 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле username текст ошибки не по треб.jpg.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10043,,,,,,0|i000bn:9,Спринт 5,,,,,,,,,,Done,15/Jan/26 10:39 AM
 В поле Username в форме регистрации при вводе пробела не выходит ошибка,NEXT-63,10398,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Jan/26 8:54 AM,15/Jan/26 10:28 AM,15/Jan/26 10:27 AM,15/Jan/26 10:28 AM,,0,"Открыто приложение Inctagramm. Открыта форма регистрации пользователя. Пользователь не зарегистрирован в системе.
 
 Шаги:
@@ -345,7 +498,7 @@ Superadmin (GraphQL),NEXT-81,10448,Эпик,To Do,NEXT,Поколение Next,s
 
 Приоритет дефекта: высокая
 
-Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,,,,,NEXT-61,,13/Jan/26 8:54 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле username допускает пробел.jpg;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10041,,,,,,0|i000bn:i,Спринт 5,,,,,,,,,,,,,Done,15/Jan/26 10:28 AM
+Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,NEXT-61,,13/Jan/26 8:54 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле username допускает пробел.jpg;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10041,,,,,,0|i000bn:i,Спринт 5,,,,,,,,,,Done,15/Jan/26 10:28 AM
 В поле Username в форме регистрации при вводе недопустимого символа не выходит ошибка,NEXT-62,10397,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Jan/26 8:51 AM,15/Jan/26 10:26 AM,15/Jan/26 10:05 AM,15/Jan/26 10:26 AM,,0,"Открыто приложение Inctagramm. Открыта форма регистрации пользователя. Пользователь не зарегистрирован в системе. 
 
 Шаги:
@@ -365,7 +518,7 @@ Superadmin (GraphQL),NEXT-81,10448,Эпик,To Do,NEXT,Поколение Next,s
 
 Приоритет дефекта: высокая
 
-Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,NEXT-61,,,,,,13/Jan/26 8:51 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле username допуск недостим спецсимвола.jpg;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10039,,,,,,0|i000bm:,Спринт 5,,,,,,,,,,,,,Done,15/Jan/26 10:26 AM
+Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,NEXT-61,,,13/Jan/26 8:51 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле username допуск недостим спецсимвола.jpg;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10039,,,,,,0|i000bm:,Спринт 5,,,,,,,,,,Done,15/Jan/26 10:26 AM
 В поле Username в форме регистрации при вводе кириллицы не выходит ошибка,NEXT-61,10396,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,13/Jan/26 8:31 AM,15/Jan/26 10:27 AM,15/Jan/26 10:26 AM,15/Jan/26 10:27 AM,,0,"Открыто приложение Inctagramm. Открыта форма регистрации пользователя. Пользователь не зарегистрирован в системе.
 
 Шаги: 
@@ -381,13 +534,7 @@ Superadmin (GraphQL),NEXT-81,10448,Эпик,To Do,NEXT,Поколение Next,s
 
 Система под полем Username не отображает ошибку о вводе недопустимых символов.
 
-Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,NEXT-62,,,,,,NEXT-63,13/Jan/26 8:29 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле username допуск кириллицы.jpg;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10037,,,,,,0|i000bo:,Спринт 5,,,,e5b66423-3406-4465-9b5f-ff5fa9538ed6,Поколение Next,,,,,,,,Done,15/Jan/26 10:27 AM
-Настройка SSR логики,NEXT-60,10363,Task,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Александр,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Dec/25 7:16 PM,08/Jan/26 4:19 PM,,08/Jan/26 4:19 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000bp:,Спринт 5,,,9.0,,,,,,,,,,Done,08/Jan/26 4:19 PM
-"UC-4. Просмотр таблицы ""Мои платежи""",NEXT-59,10330,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Владимир,712020:6ea5ace2-47a1-4040-b350-277a983ea3a2,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Dec/25 10:03 AM,15/Jan/26 11:35 AM,15/Jan/26 10:53 AM,15/Jan/26 11:35 AM,,0,"Как *авторизованный пользователь*, я хочу просмотреть все свои платежи.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000bh:,Спринт 5,,,12.0,,,,,,,10326,NEXT-55,Payments ,Done,15/Jan/26 11:35 AM
-Покупка подписок,NEXT-58,10329,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,ALIAKSEI LAURYSHYN,712020:9f0a7b1b-42a6-4dc4-9601-74eb33f567ab,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Dec/25 10:02 AM,20/Jan/26 7:29 PM,15/Jan/26 11:36 AM,20/Jan/26 7:29 PM,,0,"Как *авторизованный пользователь*, я хочу купить дополнительные подписки.",,Alex_Naumov,Назар Турченко,712020:44d91710-ed7f-42e5-93fa-eb37245c29a8,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,0|i000au:,Спринт 5,,,13.0,,,,13/Jan/26 1:09 PM;712020:44d91710-ed7f-42e5-93fa-eb37245c29a8;👋 Нужна помощь?,,,10326,NEXT-55,Payments ,Done,20/Jan/26 7:29 PM
-Отмена автоматического продления подписки,NEXT-57,10328,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Victoria,712020:e3d8ecad-80d0-4511-9c7e-fd88aa049749,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Dec/25 10:01 AM,20/Jan/26 7:29 PM,15/Jan/26 11:38 AM,20/Jan/26 7:29 PM,,0,"Как *авторизованный пользователь*, я хочу отменить автопродление подписки.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000b2:,Спринт 5,,,5.0,,,,,,,10326,NEXT-55,Payments ,Done,20/Jan/26 7:29 PM
-"Платный аккаунт — Stripe, Paypal*",NEXT-56,10327,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Никита,712020:f35bb203-eccb-46e1-a58c-8215cf04c01e,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Dec/25 10:01 AM,20/Jan/26 7:29 PM,18/Jan/26 11:20 AM,20/Jan/26 7:29 PM,,0,"Как *авторизованный пользователь*, я хочу купить платный аккаунт, чтобы у меня были доступны дополнительные функции и галочка на моем профиле.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000b9:,Спринт 5,,,16.0,,,,,,,10326,NEXT-55,Payments ,Done,20/Jan/26 7:29 PM
-Payments ,NEXT-55,10326,Эпик,To Do,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,,,,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Dec/25 9:59 AM,30/Dec/25 9:59 AM,,,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,green,0|i000an:,,,,,,,,,,,,,,To Do,30/Dec/25 9:59 AM
+Окружение: Google. Windows 10",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,NEXT-62,,,NEXT-63,13/Jan/26 8:29 AM;ug:05125d47-9142-4f88-911d-80535b9d9828;поле username допуск кириллицы.jpg;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10037,,,,,,0|i000bo:,Спринт 5,,,,e5b66423-3406-4465-9b5f-ff5fa9538ed6,Поколение Next,,,,,Done,15/Jan/26 10:27 AM
 "В форме регистрации при вводе пароля без спецсимвола отображается ошибка ""Password must contain 0-9, a-z, A-Z, and at least one special character""",NEXT-54,10293,Bug,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Никита,712020:f35bb203-eccb-46e1-a58c-8215cf04c01e,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,Ирина,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,22/Dec/25 6:02 PM,30/Dec/25 9:56 AM,,30/Dec/25 9:56 AM,22/Dec/25 12:00 AM,0,"Открыто приложение Inctagramm
 
 Открыта форма регистрации пользователя
@@ -406,44 +553,4 @@ Payments ,NEXT-55,10326,Эпик,To Do,NEXT,Поколение Next,software,Н�
 
 Фактический результат: отображается ошибка ""Password must contain 0-9, a-z, A-Z, and at least one special character"", рамка поля окрашена в красный цвет
 
-Окружение: Firefox. Google ",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,,,NEXT-10,,,,,,22/Dec/25 6:00 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;password спецсимвол может а не должен.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10002,22/Dec/25 6:00 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;Требования ТЗ 1.docx;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10003,,,,,0|i000ad:w,Спринт 4,,,1.0,e5b66423-3406-4465-9b5f-ff5fa9538ed6,Поколение Next,,,,,,,,Done,30/Dec/25 9:56 AM
-Редактирование личных данных,NEXT-53,10260,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Victoria,712020:e3d8ecad-80d0-4511-9c7e-fd88aa049749,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,15/Dec/25 10:16 AM,30/Dec/25 9:56 AM,,30/Dec/25 9:56 AM,,0,Как *авторизированный пользователь* я хочу отредактировать свои личные данные.,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000ad:x,Спринт 4,,,6.0,,,,,,,10256,NEXT-49,Edit profile / view posts,Done,30/Dec/25 9:56 AM
-Загрузка фото,NEXT-52,10259,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Владимир,712020:6ea5ace2-47a1-4040-b350-277a983ea3a2,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,15/Dec/25 10:16 AM,30/Dec/25 9:56 AM,,30/Dec/25 9:56 AM,,0,"Как *авторизированный пользователь* я хочу загрузить свою фотографию (аватарку), чтобы мой профиль был более привлекательный и узнаваемый для моих подписчиков.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000a5:,Спринт 4,,,8.0,,,,,,,10256,NEXT-49,Edit profile / view posts,Done,30/Dec/25 9:56 AM
-Заполнение профиля,NEXT-51,10258,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,ALIAKSEI LAURYSHYN,712020:9f0a7b1b-42a6-4dc4-9601-74eb33f567ab,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,15/Dec/25 10:15 AM,30/Dec/25 9:56 AM,,30/Dec/25 9:56 AM,,0,"Как *авторизированный пользователь* я хочу заполнить свой профиль, чтобы меня могли найти мои друзья и мой профиль был более привлекательный",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000ad:v,Спринт 4,,,21.0,,,,,,,10256,NEXT-49,Edit profile / view posts,Done,30/Dec/25 9:56 AM
-Просмотр поста пользователя,NEXT-50,10257,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Александр,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,15/Dec/25 10:14 AM,30/Dec/25 9:56 AM,,30/Dec/25 9:56 AM,,0,"Как *авторизированный и неавторизованный пользователь*, я хочу иметь возможность просматривать пост (на главной странице, на странице профиля и по прямой ссылке), чтобы мне было легко получать доступ к интересному контенту.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000ab:,Спринт 4,,,4.0,,,,,,,10256,NEXT-49,Edit profile / view posts,Done,30/Dec/25 9:56 AM
-Edit profile / view posts,NEXT-49,10256,Эпик,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,15/Dec/25 10:13 AM,30/Dec/25 9:59 AM,,30/Dec/25 9:59 AM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,teal,0|i000af:,,,,,,,,,,,,,,Done,30/Dec/25 9:59 AM
-Просмотр профиля пользователя,NEXT-48,10255,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Никита,712020:f35bb203-eccb-46e1-a58c-8215cf04c01e,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,15/Dec/25 10:11 AM,30/Dec/25 9:56 AM,,30/Dec/25 9:56 AM,,0,"Как *авторизированный и неавторизованный пользователь*, я хочу иметь возможность просматривать профиль пользователя (в том числе по прямой ссылке), чтобы мне было легко получать доступ к интересному контенту.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i000a2:,Спринт 4,,,4.0,,,,,,,10256,NEXT-49,Edit profile / view posts,Done,30/Dec/25 9:56 AM
-"CRUD Posts, main page SSG",NEXT-46,10189,Эпик,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Nov/25 9:16 PM,30/Dec/25 9:59 AM,14/Jan/26 12:03 PM,30/Dec/25 9:59 AM,,0,Добавление/редактирование/просмотр своих постов/главная страница с постами,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,green,0|i0009z:,,,,,,,,,,,,,,Done,30/Dec/25 9:59 AM
-Просмотр постов на главной странице,NEXT-45,10188,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Александр,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Nov/25 8:48 PM,15/Dec/25 10:17 AM,,15/Dec/25 10:17 AM,,0,"Как *авторизированный и неавторизированный пользователь*, я хочу иметь возможность просматривать публичные посты на главной странице приложения, чтобы мне было легко получать доступ к интересному контенту.",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009x:i,Спринт 3,,,7.0,,,,,,,10189,NEXT-46,"CRUD Posts, main page SSG",Done,15/Dec/25 10:17 AM
-Просмотр своих постов,NEXT-44,10187,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,ALIAKSEI LAURYSHYN,712020:9f0a7b1b-42a6-4dc4-9601-74eb33f567ab,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Nov/25 8:47 PM,15/Dec/25 10:17 AM,,15/Dec/25 10:17 AM,,0,Как *авторизированный пользователь* я хочу просмотреть все свои публикации опубликованные ранее,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009x:r,Спринт 3,,,8.0,,,,,,,10189,NEXT-46,"CRUD Posts, main page SSG",Done,15/Dec/25 10:17 AM
-Удаление поста,NEXT-43,10186,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,ALIAKSEI LAURYSHYN,712020:9f0a7b1b-42a6-4dc4-9601-74eb33f567ab,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Nov/25 8:46 PM,15/Dec/25 10:17 AM,,15/Dec/25 10:17 AM,,0,"Как *авторизированный пользователь* я хочу удалить свой пост, который был опубликован мной ранее, чтобы другие пользователи его не видели",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009x:,Спринт 3,,,6.0,,,,,,,10189,NEXT-46,"CRUD Posts, main page SSG",Done,15/Dec/25 10:17 AM
-Редактирование поста,NEXT-42,10185,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Victoria,712020:e3d8ecad-80d0-4511-9c7e-fd88aa049749,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Nov/25 8:46 PM,15/Dec/25 10:17 AM,,15/Dec/25 10:17 AM,,0,"Как *авторизированный пользователь* я хочу редактировать свой пост, который был опубликован мной ранее, чтобы внести туда изменения",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009x:v,Спринт 3,,,17.0,,,,,,,10189,NEXT-46,"CRUD Posts, main page SSG",Done,15/Dec/25 10:17 AM
-Добавление поста с загрузкой фото,NEXT-41,10184,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Никита,712020:f35bb203-eccb-46e1-a58c-8215cf04c01e,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,30/Nov/25 8:46 PM,15/Dec/25 10:17 AM,,15/Dec/25 10:17 AM,,0,"Как *авторизированный пользователь* я хочу добавить пост с фотографией в ленту, чтобы поделиться им со своими друзьями",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009x:9,Спринт 3,,,17.0,,,,,,,10189,NEXT-46,"CRUD Posts, main page SSG",Done,15/Dec/25 10:17 AM
-Интеграция Регистрация и вход с помощью Google или GitHub с API,NEXT-40,10151,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,ALIAKSEI LAURYSHYN,712020:9f0a7b1b-42a6-4dc4-9601-74eb33f567ab,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,22/Oct/25 9:45 AM,30/Nov/25 8:38 PM,,30/Nov/25 8:38 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0008n:,Спринт 2,,,,,,,,,,10089,NEXT-20,Регистрация и вход с помощью Google или GitHub,Done,30/Nov/25 8:38 PM
-Сделать UI Регистрация и вход с помощью Google или GitHub,NEXT-39,10149,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,ALIAKSEI LAURYSHYN,712020:9f0a7b1b-42a6-4dc4-9601-74eb33f567ab,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,22/Oct/25 9:45 AM,30/Nov/25 8:38 PM,,30/Nov/25 8:38 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0008f:,Спринт 2,,,,,,,,,,10089,NEXT-20,Регистрация и вход с помощью Google или GitHub,Done,30/Nov/25 8:38 PM
-Интеграция Выход из системы с API,NEXT-38,10147,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Alex_Naumov,712020:44d91710-ed7f-42e5-93fa-eb37245c29a8,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,22/Oct/25 9:44 AM,30/Nov/25 8:39 PM,,30/Nov/25 8:39 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i00087:,Спринт 2,,,,,,,,,,10088,NEXT-19,Выход из системы (Log out),Done,30/Nov/25 8:39 PM
-Сделать UI Выход из системы,NEXT-37,10145,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Alex_Naumov,712020:44d91710-ed7f-42e5-93fa-eb37245c29a8,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,22/Oct/25 9:44 AM,30/Nov/25 8:39 PM,,30/Nov/25 8:39 PM,,0,,,Alex_Naumov,Назар Турченко,712020:44d91710-ed7f-42e5-93fa-eb37245c29a8,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,36000,36000,,0%,36000,36000,,,,,,,,,,,,,,,,0|i0007z:,Спринт 2,,,,,,,03/Nov/25 9:49 AM;712020:44d91710-ed7f-42e5-93fa-eb37245c29a8;🎉 Все хорошо!,,,10088,NEXT-19,Выход из системы (Log out),Done,30/Nov/25 8:39 PM
-Интеграция восстановление пароля с API,NEXT-36,10143,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,22/Oct/25 9:43 AM,30/Nov/25 8:38 PM,,30/Nov/25 8:38 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0007r:,Спринт 2,,,,,,,,,,10086,NEXT-17,Восстановление пароля,Done,30/Nov/25 8:38 PM
-Сделать UI восстановление пароля,NEXT-35,10141,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Victoria,712020:e3d8ecad-80d0-4511-9c7e-fd88aa049749,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,22/Oct/25 9:43 AM,30/Nov/25 8:38 PM,,30/Nov/25 8:38 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,;23/Oct/25 9:14 PM;fad23011-bfe5-4fb7-9f92-3f5c70629fb3;300,,129600,129300,300,0%,129600,129300,300,,,,,,,,,,,,,,,0|i0007j:,Спринт 2,,,,,,,,,,10086,NEXT-17,Восстановление пароля,Done,30/Nov/25 8:38 PM
-Интеграция вход в систему с API,NEXT-34,10139,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Александр,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,22/Oct/25 9:42 AM,24/Nov/25 9:32 PM,,07/Nov/25 8:49 PM,14/Nov/25 12:00 AM,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,;06/Nov/25 4:30 PM;ug:44b46f7c-de06-4002-88c0-1635564380bc;21600,;07/Nov/25 4:34 PM;ug:44b46f7c-de06-4002-88c0-1635564380bc;14400,,0,36000,,,0,36000,,,,,,,,,,,,,,,0|i0007b:,Спринт 2,,,,,,,,,,10087,NEXT-18,Вход в систему (Log In),Done,07/Nov/25 8:49 PM
-Сделать UI вход в систему,NEXT-33,10137,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Александр,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,22/Oct/25 9:41 AM,24/Nov/25 9:31 PM,,07/Nov/25 8:49 PM,14/Nov/25 12:00 AM,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,;06/Nov/25 4:29 PM;ug:44b46f7c-de06-4002-88c0-1635564380bc;14400,,43200,28800,14400,33%,43200,28800,14400,,,,,,,,,,,,,,,0|i00073:,Спринт 2,,,,,,,,,,10087,NEXT-18,Вход в систему (Log In),Done,07/Nov/25 8:49 PM
-Интеграция окна регистрации с API,NEXT-32,10135,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,22/Oct/25 9:41 AM,30/Nov/25 8:39 PM,,30/Nov/25 8:39 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0006v:,Спринт 2,,,,,,,,,,10085,NEXT-16,Регистрация,Done,30/Nov/25 8:39 PM
-Сделать UI форму регистрации,NEXT-31,10133,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Владимир,712020:6ea5ace2-47a1-4040-b350-277a983ea3a2,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,22/Oct/25 9:40 AM,30/Nov/25 8:39 PM,06/Dec/25 2:52 PM,30/Nov/25 8:39 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,100800,100800,,0%,100800,100800,,,,,,,,,,,,,,,,0|i0006n:,Спринт 2,,,,,,,,,,10085,NEXT-16,Регистрация,Done,30/Nov/25 8:39 PM
-Регистрация и вход с помощью Google или GitHub,NEXT-20,10089,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,ALIAKSEI LAURYSHYN,712020:9f0a7b1b-42a6-4dc4-9601-74eb33f567ab,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,21/Oct/25 8:44 PM,30/Nov/25 8:38 PM,14/Jan/26 12:05 PM,30/Nov/25 8:38 PM,,0,"Как *неавторизованный пользователь* я хочу зарегистрироваться в системе с помощью google и/или gtihub, чтобы создать свой профиль",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0003t:,Спринт 2,,,20.0,,,,,,,10047,NEXT-10,Registration and Authorization,Done,30/Nov/25 8:38 PM
-Выход из системы (Log out),NEXT-19,10088,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Alex_Naumov,712020:44d91710-ed7f-42e5-93fa-eb37245c29a8,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,21/Oct/25 8:44 PM,30/Nov/25 8:38 PM,,30/Nov/25 8:38 PM,,0,,,Alex_Naumov,Назар Турченко,712020:44d91710-ed7f-42e5-93fa-eb37245c29a8,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,36000,36000,,,,,,,,,,,,,,,,0|i0003u:,Спринт 2,,,,,,,03/Nov/25 9:49 AM;712020:44d91710-ed7f-42e5-93fa-eb37245c29a8;🎉 Все хорошо!,,,10047,NEXT-10,Registration and Authorization,Done,30/Nov/25 8:38 PM
-Вход в систему (Log In),NEXT-18,10087,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Александр,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,21/Oct/25 8:43 PM,06/Dec/25 2:45 PM,14/Jan/26 12:04 PM,30/Nov/25 8:37 PM,,0,"Как *неавторизированный пользователь* я хочу войти в систему, чтобы создать аккаунт",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,;06/Nov/25 4:23 PM;ug:44b46f7c-de06-4002-88c0-1635564380bc;14400,,,0,14400,,43200,28800,64800,,,,,,,,,,,,,,,0|i0003r:,Спринт 2,,,,,,,,,,10047,NEXT-10,Registration and Authorization,Done,30/Nov/25 8:37 PM
-Восстановление пароля,NEXT-17,10086,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,21/Oct/25 8:42 PM,30/Nov/25 8:38 PM,,30/Nov/25 8:38 PM,,0,"Как *неавторизированный пользователь* я хочу восстановить пароль, чтобы войти в систему, в случае если я забыл пароль",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,129600,129300,300,,,,,,,,,,,,,,,0|i0003t:i,Спринт 2,,,,,,,,,,10047,NEXT-10,Registration and Authorization,Done,30/Nov/25 8:38 PM
-Регистрация,NEXT-16,10085,Story,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,21/Oct/25 8:30 PM,30/Nov/25 8:38 PM,22/Dec/25 5:31 PM,30/Nov/25 8:38 PM,,0,"Как *неавторизованный пользователь я хочу зарегистрироваться в системе, чтобы* создать свой профиль",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,100800,100800,,,,,,,,,,,,,,,,0|i0003u:i,Спринт 2,,,,,,,,,,10047,NEXT-10,Registration and Authorization,Done,30/Nov/25 8:38 PM
-Registration and Authorization,NEXT-10,10047,Эпик,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,21/Oct/25 1:09 PM,30/Dec/25 9:59 AM,14/Jan/26 12:03 PM,30/Dec/25 9:59 AM,,0,"В рамках этого эпика будет разработан интерфейс и логика, обеспечивающие регистрацию новых пользователей, вход в систему существующих и восстановление пароля.
-
-Эпик включает создание страниц Sign Up, Login, Password Recovery, а также интеграцию с backend для проверки и хранения пользовательских данных.
-
-Основное внимание уделяется простоте интерфейса и безопасности передачи данных",,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,0,14400,,NEXT-54,NEXT-6,NEXT-4,NEXT-3,NEXT-2,,,,,,,,purple,0|i0001z:,,,16/Oct/25 12:00 AM,,e5b66423-3406-4465-9b5f-ff5fa9538ed6,Поколение Next,,,,,,,,Done,30/Dec/25 9:59 AM
-Input,NEXT-9,10014,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Alex_Naumov,712020:44d91710-ed7f-42e5-93fa-eb37245c29a8,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,16/Oct/25 8:46 PM,21/Oct/25 12:28 PM,,21/Oct/25 12:28 PM,,0,,,Alex_Naumov,Назар Турченко,712020:44d91710-ed7f-42e5-93fa-eb37245c29a8,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,0|i0001r:,Спринт 1,,19/Oct/25 12:00 AM,13.0,,,,20/Oct/25 4:11 PM;712020:44d91710-ed7f-42e5-93fa-eb37245c29a8;🎉 Все хорошо!,,,10002,NEXT-3,Написать компоненты,Done,21/Oct/25 12:28 PM
- Check-box / Dark theme,NEXT-8,10012,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Александр,712020:0db7c5ea-85cf-49eb-b835-adc93169d1f1,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,16/Oct/25 8:44 PM,19/Oct/25 1:30 PM,,19/Oct/25 1:30 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0001j:,Спринт 1,,,8.0,,,,,,,10002,NEXT-3,Написать компоненты,Done,19/Oct/25 1:30 PM
-Header,NEXT-6,10008,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Victoria,712020:e3d8ecad-80d0-4511-9c7e-fd88aa049749,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,16/Oct/25 8:43 PM,28/Oct/25 7:51 PM,,28/Oct/25 7:51 PM,,0,Сверстать компонент Header с логотипом и иконкой уведомлений,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,NEXT-10,,,,,,,,,,,,,0|i00013:,Спринт 1,,,5.0,,,,,,,10002,NEXT-3,Написать компоненты,Done,28/Oct/25 7:51 PM
-Button,NEXT-5,10006,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Владимир,712020:6ea5ace2-47a1-4040-b350-277a983ea3a2,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,16/Oct/25 8:41 PM,21/Oct/25 10:31 AM,,21/Oct/25 10:31 AM,,0,посмотрел стайлгайд по созданию кнопки. написал базовый компонент компонент. разбираюсь со стилями ,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|i0000v:,Спринт 1,,,6.0,,,,,,,10002,NEXT-3,Написать компоненты,Done,21/Oct/25 10:31 AM
-Cards,NEXT-4,10004,Подзадача,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,ALIAKSEI LAURYSHYN,712020:9f0a7b1b-42a6-4dc4-9601-74eb33f567ab,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,16/Oct/25 8:41 PM,21/Oct/25 8:02 PM,,21/Oct/25 8:02 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,NEXT-10,,,,,,,,,,,,,0|i0000n:,Спринт 1,,,1.0,,,,,,,10002,NEXT-3,Написать компоненты,Done,21/Oct/25 8:02 PM
-Написать компоненты,NEXT-3,10002,Task,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,,,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,16/Oct/25 8:36 PM,29/Oct/25 9:32 AM,,28/Oct/25 7:52 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,NEXT-10,,,,,,,,,,,,,0|hzzzzr:,Спринт 1,,,34.0,,,,,,,10047,NEXT-10,Registration and Authorization,Done,28/Oct/25 7:52 PM
-Сделать базовый роутинг приложения,NEXT-2,10001,Task,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,Никита,712020:f35bb203-eccb-46e1-a58c-8215cf04c01e,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,16/Oct/25 8:29 PM,25/Oct/25 10:23 PM,,25/Oct/25 10:23 PM,,0,,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,NEXT-10,,,,,,,,,,,,,0|i00007:,Спринт 1,,,8.0,,,,,,,10047,NEXT-10,Registration and Authorization,Done,25/Oct/25 10:23 PM
-Настроить проект,NEXT-1,10000,Task,Done,NEXT,Поколение Next,software,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,Medium,Done,ALIAKSEI LAURYSHYN,712020:9f0a7b1b-42a6-4dc4-9601-74eb33f567ab,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,Назар Турченко,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,16/Oct/25 8:28 PM,21/Oct/25 1:11 PM,,19/Oct/25 2:41 PM,,0,Развернуть проект,,Назар Турченко,,712020:10bf32ad-2de2-4899-a11d-d2f0fd0a930f,,,,,,,,,,,,,,,,,,,,,,,,,0|hzzzzz:,Спринт 1,,,30.0,,,,,,,10047,NEXT-10,Registration and Authorization,Done,19/Oct/25 2:41 PM
+Окружение: Firefox. Google ",,Ирина,,712020:94470ecf-5f8f-4d96-8464-c0570f5160e7,,,,,,,,,,,NEXT-10,,,22/Dec/25 6:00 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;password спецсимвол может а не должен.png;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10002,22/Dec/25 6:00 PM;ug:05125d47-9142-4f88-911d-80535b9d9828;Требования ТЗ 1.docx;https://nazarproject1404.atlassian.net/rest/api/3/attachment/content/10003,,,,,0|i000ad:w,Спринт 4,,,1.0,e5b66423-3406-4465-9b5f-ff5fa9538ed6,Поколение Next,,,,,Done,30/Dec/25 9:56 AM
